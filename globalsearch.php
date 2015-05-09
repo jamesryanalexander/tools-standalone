@@ -12,9 +12,9 @@ Quick and Dirty cross wiki search function for Wikimedia Wikis. Will make better
 
 ---------------------------------------------   */
 
-require_once dirname( __FILE__ ) . '/../include/multiuseFunctions.php';
-require_once dirname( __FILE__ ) . '/../include/OAuth.php';
-require_once dirname( __FILE__ ) . '/../include/MWOAuthSignatureMethod.php';
+require_once dirname( __FILE__ ) . '/../core-include/multiuseFunctions.php';
+require_once dirname( __FILE__ ) . '/../core-include/OAuth.php';
+require_once dirname( __FILE__ ) . '/../core-include/MWOAuthSignatureMethod.php';
 date_default_timezone_set( 'UTC' );
 ini_set('max_execution_time', 300);
 
@@ -300,7 +300,7 @@ if ( $usertable['mwtoken'] ) {
 
 				</div>
 		</div>
-			<?php include dirname( __FILE__ ) . '/../include/lcapage.php'; ?>
+			<?php include dirname( __FILE__ ) . '/../project-include/page.php'; ?>
 	</div>
 	<?php
 flush();
