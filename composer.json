@@ -1,0 +1,22 @@
+{
+    "name": "jamesryanalexander/tools-standalone",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "jamesryanalexander/tools-coreinclude": "dev-master",
+        "symfony/http-foundation": "^3.3"
+    },
+    "require-dev": {
+        "mediawiki/mediawiki-codesniffer": "^0.8.0",
+        "symfony/var-dumper": "^3.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/davidbarratt/tools-coreinclude.git"
+      }
+    ]
+}
