@@ -33,11 +33,10 @@ $t = 0;
 <!DOCTYPE html>
 <html lang='en-US'>
 <head>
-	<link rel='shortcut icon' href='/images/favicon.ico'/>
 	<title>Global Link Search (ALPHA)</title>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-	<link href="/css/main.css" rel="stylesheet" />
-	<link href="/css/lca.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/lca.css" rel="stylesheet" />
 	<style type="text/css">
 		.external, .external:visited { color: #222222; }
 		.autocomment{color:gray}

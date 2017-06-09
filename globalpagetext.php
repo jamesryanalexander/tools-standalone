@@ -29,11 +29,10 @@ $originalapiurl = 'https://meta.wikimedia.org/w/api.php';
 <!DOCTYPE>
 <html lang='en-US'>
 <head>
-	<link rel='shortcut icon' href='/images/favicon.ico'/>
 	<title>Global Page Text (ALPHA)</title>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-	<link href="/css/main.css" rel="stylesheet" />
-	<link href="/css/lca.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/lca.css" rel="stylesheet" />
 	<style type="text/css">
 		.external, .external:visited { color: #222222; }
 		.autocomment{color:gray}
