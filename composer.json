@@ -1,5 +1,5 @@
 {
-    "name": "jamesryanalexander/tools-standalone",
+    "name": "wikimedia/tools-globalsearch",
     "type": "project",
     "license": "MIT",
     "require": {
