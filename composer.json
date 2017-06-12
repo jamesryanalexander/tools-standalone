@@ -1,0 +1,14 @@
+{
+    "name": "wikimedia/tools-globalsearch",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "symfony/http-foundation": "^3.3"
+    },
+    "require-dev": {
+        "mediawiki/mediawiki-codesniffer": "^0.8.0",
+        "symfony/var-dumper": "^3.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
