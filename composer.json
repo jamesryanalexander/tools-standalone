@@ -4,7 +4,6 @@
     "license": "MIT",
     "require": {
         "php": ">=5.6",
-        "jamesryanalexander/tools-coreinclude": "dev-master",
         "symfony/http-foundation": "^3.3"
     },
     "require-dev": {
@@ -12,11 +11,5 @@
         "symfony/var-dumper": "^3.3"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/davidbarratt/tools-coreinclude.git"
-      }
-    ]
+    "prefer-stable": true
 }

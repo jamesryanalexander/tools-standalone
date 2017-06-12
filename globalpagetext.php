@@ -127,8 +127,8 @@ if ( $request->request->has( 'page' ) ) {
 	}
 
 	foreach ( $sites as $key => $sitearray ) {
-		$apiurl = makehttps( $sitearray['url'] ).'/w/api.php';
-		$siteurl = makehttps( $sitearray['url'] );
+		$siteurl = preg_replace( "/^http:/", "https:", $sitearray['url'], 1 );
+		$apiurl = $siteurl . '/w/api.php';
 		$dbname = $sitearray['dbname'];
 		echo '<script> $("#results").append("<tr><th colspan=\'2\'> <a href=\''.$siteurl.'\' target=\'_blank\'>'.$dbname.'</a></th></tr>");</script>';
 		if ( array_key_exists( 'closed', $sitearray ) ) {

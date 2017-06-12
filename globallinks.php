@@ -146,8 +146,8 @@ if ( $request->request->has( 'searchfor' ) ) {
 
 	foreach ( $sites as $key => $sitearray ) {
 		$s = 0;
-		$apiurl = makehttps( $sitearray['url'] ).'/w/api.php';
-		$siteurl = makehttps( $sitearray['url'] );
+		$siteurl = preg_replace( "/^http:/", "https:", $sitearray['url'], 1 );
+		$apiurl = $siteurl . '/w/api.php';
 		$dbname = $sitearray['dbname'];
 		echo '<script> $("#results").append("<tr><th colspan=\'3\'> <a href=\''.$siteurl.'\' target=\'_blank\'>'.$dbname.'</a></th></tr>");</script>';
 		if ( array_key_exists( 'closed', $sitearray ) ) {
